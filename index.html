@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Table</title>
+	
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery.restable.min.css">
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="row">
+		
+			<div class="order-details-wrap clearfix">
+		
+				<div class="col-xs-12">
+				
+					<table class="order-details table table-bordered">
+						<tr>
+							<th>Image</th>
+							<th>Name</th>
+							<th>Quantity</th>
+							<th>Price</th>
+							<th>Total</th>
+							<th>Remove</th>
+						</tr>
+						<tr>
+							<td><img src="images/img.jpg" alt="" width="50px"></td>
+							<td>ABC</td>
+							<td>5</td>
+							<td>100</td>
+							<td>500</td>
+							<td><a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a></td>
+						</tr>
+						<tr>
+							<td><img src="images/img.jpg" alt="" width="50px"></td>
+							<td>ABC</td>
+							<td>5</td>
+							<td>100</td>
+							<td>500</td>
+							<td><a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a></td>
+						</tr>
+					</table>					
+				
+				</div>
+				
+				<div class="col-sm-offset-8 col-sm-4">
+					<table class="sub-total table table-bordered">
+						<tr>
+							<td>Sub Total</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>SGST (9%)</td>
+							<td>18</td>
+						</tr>
+						<tr>
+							<td>CGST (9%)</td>
+							<td>18</td>
+						</tr>
+						<tr>
+							<td>Total</td>
+							<td>236</td>
+						</tr>
+					</table>
+				</div>
+				
+				<div class="col-xs-12">
+				
+					<table class="order-details table table-bordered">
+						<tr>
+							<th>Order No</th>
+							<th>Customer</th>
+							<th>No. of Products</th>
+							<th>Status</th>
+							<th>Total</th>
+							<th>Date Added</th>
+							<th>View</th>
+						</tr>
+						<tr>
+							<td>00001</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+							<td>1</td>
+							<td>Pending</td>
+							<td>200</td>
+							<td>12/07/2017</td>
+							<td><a href=""><i class="fa fa-eye" aria-hidden="true"></i></a></td>
+						</tr>
+						<tr>
+							<td>00002</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
+							<td>1</td>
+							<td>Delivered</td>
+							<td>500</td>
+							<td>12/07/2017</td>
+							<td><a href=""><i class="fa fa-eye" aria-hidden="true"></i></a></td>
+						</tr>
+					</table>
+				
+				</div>
+				
+				<div class="col-md-12">
+					<div class="row">
+					
+						<div class="col-sm-6">
+						
+							<table class="table table-bordered">
+								<tr>
+									<td colspan="2">Order Details</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="pull-left">
+											<ul>
+												<li>Order ID</li>
+												<li>Date Added</li>
+												<li>Payment Method</li>
+											</ul>
+										</div>
+										<div class="pull-left">
+											<ul>
+												<li>00001</li>
+												<li>12/07/2017</li>
+												<li>COD</li>
+											</ul>
+										</div>
+									</td>
+								</tr>
+							</table>
+						
+						</div>
+					
+						<div class="col-sm-6">
+						
+							<table class="table table-bordered">
+								<tr>
+									<td colspan="2">Shipping Address</td>
+								</tr>
+								<tr>
+									<td>
+										Lorem ipsum dolor sit amet, <br>
+										consectetur adipisicing, <br>
+										Earumincidunt reiciendis, <br>
+										00000000.
+									</td>
+								</tr>
+							</table>
+						
+						</div>
+					
+					</div>
+				</div>
+				
+				<div class="col-xs-12">
+				
+					<table class="order-details table table-bordered">
+						<tr>
+							<th>Name</th>
+							<th>Quantity</th>
+							<th>Price</th>
+							<th>Total</th>
+						</tr>
+						<tr>
+							<td>ABC</td>
+							<td>5</td>
+							<td>100</td>
+							<td>500</td>
+						</tr>
+						<tr>
+							<td>ABC</td>
+							<td>5</td>
+							<td>100</td>
+							<td>500</td>
+						</tr>
+					</table>					
+				
+				</div>
+				
+				<div class="col-sm-offset-8 col-sm-4">
+					<table class="sub-total table table-bordered">
+						<tr>
+							<td>Sub Total</td>
+							<td>200</td>
+						</tr>
+						<tr>
+							<td>SGST (9%)</td>
+							<td>18</td>
+						</tr>
+						<tr>
+							<td>CGST (9%)</td>
+							<td>18</td>
+						</tr>
+						<tr>
+							<td>Total</td>
+							<td>236</td>
+						</tr>
+					</table>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.restable.min.js"></script>
+    <script type="text/javascript">
+	
+        $(window).ready(function () {
+			
+			$('.order-details').ReStable({
+				keepHtml : true,
+				rowHeaders : false,
+				maxWidth: 768
+			})
+			
+		});
+		
+    </script>
+
+</body>
+
+</html>
